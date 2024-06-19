@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import "./Table.css";
+import "./Main.css";
 
 export default function Main() {
   const listBooks: any = useSelector((state) => state);
